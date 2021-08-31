@@ -7,9 +7,8 @@ import HeroCarousel from "../components/HeroCarousel/HeroCarousel.component";
 const DefaultLayout = (props) => {
   return (
     <>
-      <Navbar />
-      <HeroCarousel />
-      {props.children}
+    <Navbar />
+      {props.children}  
     </>  
   );
 };
