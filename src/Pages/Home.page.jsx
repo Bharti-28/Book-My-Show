@@ -18,7 +18,7 @@ const HomePage = () => {
         <EntertainmentCardSlider />
       </div>
       
-      <div className="bg-bms-800 py-10">
+      <div className="bg-bms-800 py-12">
         <div className="container mx-auto px-4 flex flex-col gap-3">
           <div className="hidden md:flex">
             <img 
@@ -48,13 +48,6 @@ const HomePage = () => {
     <PosterSlider 
             images={TempPosters} 
             title="Outdoor Events"
-            isDark={false}
-            />
-    </div>
-    <div className="container mx-auto px-4 my-8">
-    <PosterSlider 
-            images={TempPosters} 
-            title="Popular Events"
             isDark={false}
             />
     </div>

@@ -41,7 +41,11 @@ const HeroCarousel = () => {
         <HeroSlider {...settings}>
             {images.map((image) => (
                 <div className="w-full h-56 md:h-80 py-3">
-                    <img src={image} alt="testing" className="w-full h-full" />
+                    <img 
+                    src={image} 
+                    alt="testing" 
+                    className="w-full h-full" 
+                 />
                 </div>
             ))}
         </HeroSlider>
@@ -51,7 +55,11 @@ const HeroCarousel = () => {
         <HeroSlider {...settingsLG}>
             {images.map((image) => (
                 <div className="w-full h-96 px-2 py-3">
-                    <img src={image} alt="testing" className="w-full h-full rounded-md" />
+                    <img 
+                    src={image} 
+                    alt="testing" 
+                    className="w-full h-full rounded-md" 
+                  />
                 </div>
             ))}
         </HeroSlider>

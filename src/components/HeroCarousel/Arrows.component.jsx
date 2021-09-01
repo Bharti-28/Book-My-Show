@@ -17,7 +17,8 @@ export const PrevArrow = (props) => {
     <>
        <div className={props.className} 
          style={{...props.style, backgroundColor: "black" }} 
-         onClick={props.onClick}  />
+         onClick={props.onClick}  
+      />
     </>
     );
 };

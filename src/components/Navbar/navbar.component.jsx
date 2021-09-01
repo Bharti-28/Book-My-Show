@@ -56,7 +56,7 @@ const NavLg = () => {
             Sign in
           </button>
           <div className="w-8 h-8 text-white">
-            <BiMenu className="w-8 h-8" />
+            <BiMenu className="w-full h-full" />
           </div>
           </div>
     </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
               {/* Medium/Tab Screen */}
               <NavMd />
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden w-full lg:flex">
               {/* Large Screen */}
               <NavLg />
           </div>
